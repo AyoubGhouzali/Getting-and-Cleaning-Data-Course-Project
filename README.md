@@ -41,9 +41,7 @@ The output of the analysis is stored in the `FinalData.txt` file.
 
 Ayoub Ghouzali
 
-## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
