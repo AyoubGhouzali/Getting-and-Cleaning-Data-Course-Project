@@ -1,0 +1,42 @@
+Based on the project requirements, here's a template for the CodeBook.md file:
+
+---
+
+# CodeBook
+
+## Overview
+
+This codebook describes the variables, the data, and any transformations or work performed to clean up the data for the Human Activity Recognition Using Smartphones dataset.
+
+## Data Source
+
+The data for this project was obtained from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+
+## Variables
+
+### Identifiers
+- `subject`: ID of the subject who performed the activity (range 1 to 30)
+- `activity`: Type of activity performed by the subject (6 activity types: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+### Measurements
+The following variables represent mean and standard deviation measurements from the original dataset. Each variable name has been transformed to provide more descriptive names.
+
+- `tBodyAcc.mean.X`
+- `tBodyAcc.mean.Y`
+- `tBodyAcc.mean.Z`
+- `tBodyAcc.std.X`
+- `tBodyAcc.std.Y`
+- `tBodyAcc.std.Z`
+- (More variables can be listed as needed)
+
+## Transformations
+
+1. Merged the training and test datasets to create one dataset.
+2. Extracted only the measurements on the mean and standard deviation for each measurement.
+3. Used descriptive activity names to name the activities in the dataset.
+4. Appropriately labeled the dataset with descriptive variable names.
+5. Created a second, independent tidy dataset with the average of each variable for each activity and each subject.
+
+---
+
+This CodeBook provides a clear description of the variables, the data source, and the transformations performed on the data. It helps users understand the structure and content of the dataset. Feel free to customize it further based on the specifics of your project.
